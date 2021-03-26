@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Oswald:wght@200;700&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
+
+body {
+    width: 900px;
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+}
+
+header {
+    height: 100px;
+    margin: 20px;
+    margin-left: -4px;
+}
+
+.header img {
+    float: left;
+    margin-right:5px;
+}
+
+.header h2 {
+    font-size: 37px;
+    text-transform: capitalize;
+    font-family: 'Yellowtail', cursive;
+}
+
+.header p {
+    font-size: 10px;
+    text-transform: uppercase; 
+}
+
+.icon {
+    float: right;
+    margin-top: -20px;
+    margin-right: -20px;
+}
+
+.icon img {
+    margin-right: 4px;
+}
+
+.icon img:nth-child(6) {
+    margin-right: 9px;   
+}
+
+.headerHR {
+    height: 10px;
+    border: 0;
+    background-image: url(img/hr-img.png);
+    margin-top: -30px;
+    margin-bottom: 80px;
+}
+
+main h1 {
+    float: left;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+} 
+
+.date {
+    margin-top: 10px;
+}
+
+.date p {
+    float: left;
+    margin-left: -255px;
+    color: gray;
+}
+
+.print {
+    margin-left: 600px;
+}
+
+.wordPrint {
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+
+.mainImg {
+    margin: 30px 0px;
+}
+
+.space {
+    text-indent: 25px;
+}
+
+.ulImg {
+    background-image: url(./img/list-bg.png);
+    height: 260px;
+    list-style: none;
+    letter-spacing: 0.1em;
+    font-family: "Patrick Hand", cursive;
+    color: rgb(102, 106, 66);
+    margin: 40px 0px;
+    padding: 40px 0px 0px 60px;
+}
+
+.leftUl {
+    float: left;
+}
+
+.rightUl {
+    float: right;
+    margin-right: 50px;
+}
+
+li {
+    margin-bottom: 12.5px;
+}
+
+.chopped {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.rightUl li:nth-child(2){
+    text-decoration: line-through;
+}
+
+.rightUl li:nth-child(3){
+    text-decoration: line-through;
+}
+
+.footerHr{
+    height: 10px;
+    border: 0;
+    background-image: url(img/hr-img.png);
+}
+
+.ownerDiv {
+    margin-bottom: 170px;
+    margin-top: 30px;
+}
+
+.owner {
+    float: left;
+}
+
+.owner img {
+    float: left;
+    margin-right: 15px;
+}
+
+.owner h3 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+button {
+    float: right;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(228, 63, 41);
+    width: 130px;
+    height: 40px;
+    border: rgb(228, 63, 41);
+    margin-top: 10px;
+}
+
+.rightHr {
+    width: 47.5%;
+    float: left;
+}
+
+.leftHr {
+    width: 47.5%;
+    float: right;
+}
+
+.footer img {
+    margin: 0px 5px;
+    margin-top: -10px;
+}
+.copyRight p {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: gray;
+}
+
